@@ -1,0 +1,59 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+/* 登录和注册页面 */
+
+.loginAndReg {
+    position: absolute;
+    padding: 0 30px;
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* 题目title */
+
+.title {
+    width: 400px;
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+
+/* 登录页面 */
+
+.goLogin,
+.goReg {
+    cursor: pointer;
+    text-align: right;
+}
+
+.reg {
+    display: none;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-input {
+    padding-left: 30px;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
